@@ -8,8 +8,34 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div>미디어쿼어리</div>
-    <h2>qweqweq22</h2>
-    <script src="./js/index.js"></script>
+    <div class="container">
+        <nav>
+            <span id="log-out">Log out</span>
+        </nav>
+        <div class="content">
+            <h2 id="clock">00:00:00</h2>
+
+            <form id="login-form">
+                <input type="text" placeholder="What is your name?" minlength="1" required>
+            </form>
+            <h1 id="greeting"></h1> 
+
+            <form id="todo-form">
+                <input type="text" placeholder="Write To Do Here">  
+            </form>  
+            <ul id="todo-list"></ul>
+        </div>
+        <footer id="weather">
+            <span></span>
+            <span></span>
+            <span></span>
+        </footer>
+        <img>
+    </div>
+    <script src="./js/clock.js"></script>
+    <script src="./js/greetings.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/weahter.js"></script>
+    <script src="./js/background.js"></script>
 </body>
 </html>
